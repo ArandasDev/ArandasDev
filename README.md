@@ -37,7 +37,7 @@ Desenvolvimento de interfaces intuitivas e acessíveis (estudando Front-end com 
 
 ## Contato
 
-* **Email:** [emmanoelkratos2@gmail.com](mailto:arandasnyan@gmail.com)
-* **LinkedIn:** [Emmanoel Vieira](https://www.linkedin.com/in/arandasnyan/)
+* **Email:** [arandas.dev@gmail.com](mailto:arandas.dev@gmail.com)
+* **LinkedIn:** [Emmanoel Vieira](https://www.linkedin.com/in/arandasdev/)
 
 > Aberto a colaboração — pronto para contribuir com soluções inovadoras e gerar impacto real em cada projeto.
