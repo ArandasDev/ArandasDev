@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="212" viewBox="0 0 860 212" role="img" aria-labelledby="title desc">
+<title id="title">/restaurant-api — API multi-tenant para restaurantes</title>
+<desc id="desc">restaurant-api: API REST multi-tenant para restaurantes com NestJS, Prisma e PostgreSQL. Diagrama: pedidos de três restaurantes passam pelo tenant guard e chegam cada um na sua raia do banco.</desc>
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0f151d"/></pattern>
+<filter id="glow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes t0{0%{opacity:1;transform:translate(580px,56px)}7.68%{opacity:1;transform:translate(626px,100px)}17.81%{opacity:1;transform:translate(710px,100px)}24.52%{opacity:1;transform:translate(744px,56px)}32%{opacity:1;transform:translate(806px,56px)}32.3%,100%{opacity:0;transform:translate(806px,56px)}}
+@keyframes t1{0%,29.7%{opacity:0;transform:translate(580px,100px)}30%{opacity:1;transform:translate(580px,100px)}36.51%{opacity:1;transform:translate(626px,100px)}48.41%{opacity:1;transform:translate(710px,100px)}53.22%{opacity:1;transform:translate(744px,100px)}62%{opacity:1;transform:translate(806px,100px)}62.3%,100%{opacity:0;transform:translate(806px,100px)}}
+@keyframes t2{0%,59.7%{opacity:0;transform:translate(580px,144px)}60%{opacity:1;transform:translate(580px,144px)}67.68%{opacity:1;transform:translate(626px,100px)}77.81%{opacity:1;transform:translate(710px,100px)}84.52%{opacity:1;transform:translate(744px,144px)}92%{opacity:1;transform:translate(806px,144px)}92.3%,100%{opacity:0;transform:translate(806px,144px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="860" height="212" rx="16" fill="#0a0d12"/>
+<rect width="860" height="212" rx="16" fill="url(#grid)"/>
+<rect x="28" y="22" width="43.2" height="24" rx="5" fill="#ffb547" fill-opacity=".14" stroke="#ffb547" stroke-opacity=".45"/>
+<text x="49.6" y="39" font-size="13" fill="#ffb547" font-weight="700" text-anchor="middle">GET</text>
+<text x="83.2" y="40" font-size="16" fill="#e6edf3" font-weight="700" text-anchor="start">/restaurant-api</text>
+<text x="28" y="80" font-size="19" fill="#e6edf3" font-weight="700" text-anchor="start">API multi-tenant para restaurantes</text>
+<text x="28" y="108" font-size="13.5" fill="#8b949e" font-weight="400" text-anchor="start">Cardápio, pedidos e delivery para milhares de</text>
+<text x="28" y="129" font-size="13.5" fill="#8b949e" font-weight="400" text-anchor="start">restaurantes, cada um isolado do outro. Clean</text>
+<text x="28" y="150" font-size="13.5" fill="#8b949e" font-weight="400" text-anchor="start">Architecture e segurança em primeiro lugar.</text>
+<rect x="28" y="164" width="61.2" height="24" rx="12" fill="#121923" stroke="#1d2633"/>
+<text x="58.6" y="180" font-size="12" fill="#e6edf3" font-weight="400" text-anchor="middle">NestJS</text>
+<rect x="97.2" y="164" width="61.2" height="24" rx="12" fill="#121923" stroke="#1d2633"/>
+<text x="127.80000000000001" y="180" font-size="12" fill="#e6edf3" font-weight="400" text-anchor="middle">Prisma</text>
+<rect x="166.4" y="164" width="90" height="24" rx="12" fill="#121923" stroke="#1d2633"/>
+<text x="211.4" y="180" font-size="12" fill="#e6edf3" font-weight="400" text-anchor="middle">PostgreSQL</text>
+<rect x="264.4" y="164" width="39.6" height="24" rx="12" fill="#121923" stroke="#1d2633"/>
+<text x="284.2" y="180" font-size="12" fill="#e6edf3" font-weight="400" text-anchor="middle">JWT</text>
+<rect x="312" y="164" width="61.2" height="24" rx="12" fill="#121923" stroke="#1d2633"/>
+<text x="342.6" y="180" font-size="12" fill="#e6edf3" font-weight="400" text-anchor="middle">Docker</text>
+<rect x="492" y="20" width="340" height="172" rx="10" fill="#0d1219" stroke="#1d2633"/>
+<path d="M580 56L626 100" fill="none" stroke="#1d2633" stroke-width="1.5"/>
+<path d="M710 100L744 56" fill="none" stroke="#1d2633" stroke-width="1.5"/>
+<rect x="744" y="47" width="70" height="18" rx="4" fill="#ffb547" fill-opacity=".12" stroke="#ffb547" stroke-opacity=".5"/>
+<path d="M580 100L626 100" fill="none" stroke="#1d2633" stroke-width="1.5"/>
+<path d="M710 100L744 100" fill="none" stroke="#1d2633" stroke-width="1.5"/>
+<rect x="744" y="91" width="70" height="18" rx="4" fill="#ff7eb6" fill-opacity=".12" stroke="#ff7eb6" stroke-opacity=".5"/>
+<path d="M580 144L626 100" fill="none" stroke="#1d2633" stroke-width="1.5"/>
+<path d="M710 100L744 144" fill="none" stroke="#1d2633" stroke-width="1.5"/>
+<rect x="744" y="135" width="70" height="18" rx="4" fill="#4fd6be" fill-opacity=".12" stroke="#4fd6be" stroke-opacity=".5"/>
+<circle r="4" fill="#ffb547" filter="url(#glow)" opacity="0" style="animation:t0 6s linear infinite"/>
+<circle r="4" fill="#ff7eb6" filter="url(#glow)" opacity="0" style="animation:t1 6s linear infinite"/>
+<circle r="4" fill="#4fd6be" filter="url(#glow)" opacity="0" style="animation:t2 6s linear infinite"/>
+<rect x="508" y="43" width="72" height="26" rx="7" fill="#0a0d12" stroke="#ffb547" stroke-opacity=".7"/><text x="544" y="60" font-size="11.5" fill="#e6edf3" font-weight="700" text-anchor="middle">pizzaria</text>
+<rect x="508" y="87" width="72" height="26" rx="7" fill="#0a0d12" stroke="#ff7eb6" stroke-opacity=".7"/><text x="544" y="104" font-size="11.5" fill="#e6edf3" font-weight="700" text-anchor="middle">burger</text>
+<rect x="508" y="131" width="72" height="26" rx="7" fill="#0a0d12" stroke="#4fd6be" stroke-opacity=".7"/><text x="544" y="148" font-size="11.5" fill="#e6edf3" font-weight="700" text-anchor="middle">café</text>
+<rect x="626" y="80" width="84" height="40" rx="7" fill="#0a0d12" stroke="#ffb547" stroke-opacity=".7"/><text x="668" y="99" font-size="11.5" fill="#e6edf3" font-weight="700" text-anchor="middle">API</text><text x="668" y="111" font-size="9.5" fill="#8b949e" font-weight="400" text-anchor="middle">tenant guard</text>
+<text x="779" y="36" font-size="10" fill="#8b949e" font-weight="400" text-anchor="middle">postgres</text>
+<text x="662" y="182" font-size="10.5" fill="#3d4756" font-weight="400" text-anchor="middle">cada tenant chega na sua própria raia</text>
+<rect x=".5" y=".5" width="859" height="211" rx="15.5" fill="none" stroke="#1d2633"/>
+</svg>

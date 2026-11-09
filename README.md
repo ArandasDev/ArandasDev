@@ -1,43 +1,47 @@
-<h1 align="center">Emmanoel Vieira — Desenvolvedor Back-end</h1>
+<p align="center">
+  <img src="./assets/trace.svg" width="100%" alt="Trace animado: uma requisição GET /emmanoel-vieira atravessa api-gateway, auth, profile-svc e postgres e volta com 200 OK. Emmanoel Vieira, desenvolvedor back-end.">
+</p>
 
-Formado em **Análise e Desenvolvimento de Sistemas** pela [FIAP](https://fiap.com.br), desenvolvo soluções web back-end com foco em **eficiência, automação** e **integrações de alto desempenho**.
-Tenho experiência em projetos acadêmicos, pessoais e freelance, aplicando tecnologias modernas para entregar resultados **robustos, escaláveis e seguros**.
+<p align="center">
+  Formado em <b>Análise e Desenvolvimento de Sistemas</b> pela FIAP. Construo back-end em <b>TypeScript</b> e <b>Node.js</b>:
+  APIs multi-tenant, bots e integrações entre plataformas, com foco em arquitetura limpa, segurança
+  e código que aguenta manutenção.
+</p>
 
-## Principais Competências
+### `span 01` · stack
 
-**Linguagens:** JavaScript, TypeScript, CSharp, SQL
+<p align="center">
+  <img src="./assets/stack.svg" width="100%" alt="Stack em quatro camadas. Linguagens: TypeScript, JavaScript, C#, SQL. Frameworks: Node.js, NestJS, Fastify, Next.js, .NET. Persistência: PostgreSQL, Prisma, Redis, MongoDB, SQLite. Entrega: Docker, GitHub Actions, Azure, Jest e Vitest.">
+</p>
 
-**Frameworks e Ferramentas:**
-Node.js, Express.js, Next.js, .Net, TailwindCSS, SCSS
+### `span 02` · projetos
 
-**Bancos de Dados:**
-MongoDB, PostgreSQL, PL/SQL
+<p align="center">
+  <a href="https://github.com/ArandasDev/restaurant-api">
+    <img src="./assets/project-restaurant-api.svg" width="100%" alt="restaurant-api: API REST multi-tenant para restaurantes com NestJS, Prisma e PostgreSQL, com isolamento forte entre tenants.">
+  </a>
+</p>
 
-**Cloud e APIs:**
-RESTful APIs, Web Services, Deploy em nuvem (Azure)
+<p align="center">
+  <a href="https://github.com/ArandasDev/squadbot">
+    <img src="./assets/project-squadbot.svg" width="100%" alt="squadbot: bot de Discord que guarda a memória compartilhada do time, com dashboard web em Next.js.">
+  </a>
+</p>
 
-**Versionamento:**
-Git, GitHub
+<p align="center">
+  <a href="https://github.com/ArandasDev/ndev-chatbot">
+    <img src="./assets/project-ndev-chatbot.svg" width="100%" alt="ndev-chatbot: um bot para Discord e Twitch com motor de comandos independente de plataforma, API em Fastify e painel web.">
+  </a>
+</p>
 
-**UX/UI:**
-Desenvolvimento de interfaces intuitivas e acessíveis (estudando Front-end com boas práticas)
+### `span 03` · response
 
-## Projetos em Destaque
+<p align="center">
+  <img src="./assets/response.svg" width="100%" alt="Resposta 200 OK em JSON com nome, papel, email e LinkedIn de Emmanoel Vieira.">
+</p>
 
-* **[to-do-api](https://github.com/seu-usuario/to-do-api):** API para aplicativos de gestão de tarefas, com arquitetura robusta, documentação via Swagger e autenticação JWT.
-* **[Smart Weather](https://github.com/seu-usuario/SmartWeather):** Aplicativo mobile de previsão do tempo com integração de APIs e design focado na usabilidade.
-* **Projetos acadêmicos e freelance:** Sistemas web, automações e aplicativos mobile, sempre priorizando performance e escalabilidade.
-
-## Diferenciais
-
-* **Mentalidade de crescimento contínuo** e aprendizado rápido
-* Experiência em **integrações complexas** e automação de processos (incluindo chatbots)
-* Capacidade de atuar **de forma independente** ou em **times ágeis**
-* Código **limpo, documentado** e preparado para **manutenção a longo prazo**
-
-## Contato
-
-* **Email:** [arandas.dev@gmail.com](mailto:arandas.dev@gmail.com)
-* **LinkedIn:** [Emmanoel Vieira](https://www.linkedin.com/in/arandasdev/)
-
-> Aberto a colaboração — pronto para contribuir com soluções inovadoras e gerar impacto real em cada projeto.
+<p align="center">
+  <a href="mailto:arandas.dev@gmail.com">arandas.dev@gmail.com</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/arandasdev/">LinkedIn</a>
+</p>

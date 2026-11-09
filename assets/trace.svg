@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420" role="img" aria-labelledby="title desc">
+<title id="title">Emmanoel Vieira — trace de uma requisição</title>
+<desc id="desc">Uma requisição GET /emmanoel-vieira atravessa api-gateway, auth, profile-svc e postgres; as barras de span crescem em cascata e a resposta volta com 200 OK em 42 ms. Emmanoel Vieira, desenvolvedor back-end: TypeScript, Node.js, APIs, bots e integrações. ADS pela FIAP.</desc>
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0f151d"/></pattern>
+<filter id="glow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="nameClip"><text x="28" y="118" font-size="44" fill="#fff" font-weight="700" text-anchor="start" letter-spacing="-0.5">Emmanoel Vieira</text></clipPath>
+<linearGradient id="sweepG" x1="0" x2="1"><stop offset="0" stop-color="#ffb547" stop-opacity="0"/><stop offset=".5" stop-color="#ffb547" stop-opacity=".95"/><stop offset="1" stop-color="#ffb547" stop-opacity="0"/></linearGradient>
+<linearGradient id="underG" x1="0" x2="1"><stop offset="0" stop-color="#ffb547"/><stop offset="1" stop-color="#4fd6be"/></linearGradient>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes pend{0%,39%{opacity:1}40%,100%{opacity:0}}
+@keyframes ok{0%,39.5%{opacity:0}41%,100%{opacity:1}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.25}}
+@keyframes sweep{0%,40%{opacity:0;transform:translateX(0)}41%{opacity:1;transform:translateX(0)}56%{opacity:1;transform:translateX(640px)}57%,100%{opacity:0;transform:translateX(640px)}}
+@keyframes under{0%,40%{stroke-dashoffset:396}53%,100%{stroke-dashoffset:0}}
+@keyframes bar0{0%,0%{transform:scaleX(0);opacity:1}40%,90%{transform:scaleX(1);opacity:1}95%,100%{transform:scaleX(1);opacity:0}}
+@keyframes ms0{0%,39.5%{opacity:0}41%,90%{opacity:1}95%,100%{opacity:0}}
+@keyframes bar1{0%,1.9%{transform:scaleX(0);opacity:1}5.71%,90%{transform:scaleX(1);opacity:1}95%,100%{transform:scaleX(1);opacity:0}}
+@keyframes ms1{0%,5.21%{opacity:0}6.71%,90%{opacity:1}95%,100%{opacity:0}}
+@keyframes bar2{0%,5.71%{transform:scaleX(0);opacity:1}36.19%,90%{transform:scaleX(1);opacity:1}95%,100%{transform:scaleX(1);opacity:0}}
+@keyframes ms2{0%,35.69%{opacity:0}37.19%,90%{opacity:1}95%,100%{opacity:0}}
+@keyframes bar3{0%,11.43%{transform:scaleX(0);opacity:1}28.57%,90%{transform:scaleX(1);opacity:1}95%,100%{transform:scaleX(1);opacity:0}}
+@keyframes ms3{0%,28.07%{opacity:0}29.57%,90%{opacity:1}95%,100%{opacity:0}}
+@keyframes cursor{0%{opacity:.9;transform:translateX(0)}40%{opacity:.9;transform:translateX(480px)}42%,100%{opacity:0;transform:translateX(480px)}}
+@keyframes halo0{0%{opacity:0}0%{opacity:0.55}4%{opacity:0}38%{opacity:0}40%{opacity:0.55}44%{opacity:0}100%{opacity:0}}
+@keyframes halo1{0%{opacity:0}5%{opacity:0}7%{opacity:0.55}11%{opacity:0}35%{opacity:0}37%{opacity:0.55}41%{opacity:0}100%{opacity:0}}
+@keyframes halo2{0%{opacity:0}12%{opacity:0}14%{opacity:0.55}18%{opacity:0}32%{opacity:0}34%{opacity:0.55}38%{opacity:0}100%{opacity:0}}
+@keyframes halo3{0%{opacity:0}19%{opacity:0}21%{opacity:0.55}25%{opacity:0}29%{opacity:0}31%{opacity:0.55}35%{opacity:0}100%{opacity:0}}
+@keyframes halo4{0%{opacity:0}26%{opacity:0}28%{opacity:0.55}32%{opacity:0}100%{opacity:0}}
+@keyframes req{0%{opacity:1;transform:translate(60px,366px)}28%{opacity:1;transform:translate(800px,366px)}28.3%,100%{opacity:0;transform:translate(800px,366px)}}
+@keyframes res{0%,28.1%{opacity:0;transform:translate(800px,366px)}28.4%{opacity:1;transform:translate(800px,366px)}40%{opacity:1;transform:translate(60px,366px)}40.3%,100%{opacity:0;transform:translate(60px,366px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="860" height="420" rx="16" fill="#0a0d12"/>
+<rect width="860" height="420" rx="16" fill="url(#grid)"/>
+<circle cx="34" cy="31" r="4.5" fill="#ffb547" opacity="0" style="animation:pend 9s linear infinite"/>
+<circle cx="34" cy="31" r="4.5" fill="#7ee787" filter="url(#glow)" style="animation:ok 9s linear infinite"/>
+<text x="48" y="36" font-size="12" fill="#8b949e" font-weight="700" text-anchor="start" letter-spacing="2">TRACE</text>
+<text x="104" y="36" font-size="12" fill="#3d4756" font-weight="400" text-anchor="start">7f3a9b04e21c</text>
+<text x="430" y="36" font-size="14" fill="#e6edf3" font-weight="400" text-anchor="middle"><tspan fill="#7aa2ff" font-weight="700">GET</tspan> /emmanoel-vieira</text>
+<g opacity="0" style="animation:pend 9s linear infinite"><text x="832" y="36" font-size="13" fill="#ffb547" font-weight="400" text-anchor="end"><tspan style="animation:blink 0.8s linear infinite">●</tspan> aguardando…</text></g>
+<g style="animation:ok 9s linear infinite"><text x="832" y="36" font-size="13" fill="#7ee787" font-weight="400" text-anchor="end"><tspan font-weight="700">200 OK</tspan> · 42 ms</text></g>
+<path d="M0 56H860" stroke="#1d2633"/>
+<text x="28" y="118" font-size="44" fill="#e6edf3" font-weight="700" text-anchor="start" letter-spacing="-0.5">Emmanoel Vieira</text>
+<g clip-path="url(#nameClip)"><rect x="-170" y="70" width="150" height="64" fill="url(#sweepG)" opacity="0" style="animation:sweep 9s linear infinite"/></g>
+<path d="M28 136H424" stroke="url(#underG)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="396" style="animation:under 9s linear infinite"/>
+<text x="28" y="164" font-size="15" fill="#8b949e" font-weight="400" text-anchor="start">construo o caminho que a sua requisição percorre.</text>
+<path d="M498 76V168" stroke="#1d2633"/>
+<text x="520" y="92" font-size="12.5" fill="#8b949e" font-weight="400" text-anchor="start">dev.role</text>
+<text x="618" y="92" font-size="12.5" fill="#e6edf3" font-weight="400" text-anchor="start">back-end developer</text>
+<text x="520" y="115" font-size="12.5" fill="#8b949e" font-weight="400" text-anchor="start">dev.stack</text>
+<text x="618" y="115" font-size="12.5" fill="#e6edf3" font-weight="400" text-anchor="start">typescript · node.js</text>
+<text x="520" y="138" font-size="12.5" fill="#8b949e" font-weight="400" text-anchor="start">dev.focus</text>
+<text x="618" y="138" font-size="12.5" fill="#e6edf3" font-weight="400" text-anchor="start">apis · bots · integrações</text>
+<text x="520" y="161" font-size="12.5" fill="#8b949e" font-weight="400" text-anchor="start">dev.edu</text>
+<text x="618" y="161" font-size="12.5" fill="#e6edf3" font-weight="400" text-anchor="start">ADS · FIAP</text>
+<path d="M0 184H860" stroke="#1d2633"/>
+<text x="28" y="206" font-size="10.5" fill="#3d4756" font-weight="700" text-anchor="start" letter-spacing="1.5">SERVICE</text>
+<text x="130" y="206" font-size="10.5" fill="#3d4756" font-weight="700" text-anchor="start" letter-spacing="1.5">SPAN</text>
+<path d="M300 214V322" stroke="#121923" stroke-dasharray="2 4"/>
+<text x="300" y="206" font-size="10.5" fill="#3d4756" font-weight="400" text-anchor="middle">0</text>
+<path d="M414.29 214V322" stroke="#121923" stroke-dasharray="2 4"/>
+<text x="414.29" y="206" font-size="10.5" fill="#3d4756" font-weight="400" text-anchor="middle">10</text>
+<path d="M528.57 214V322" stroke="#121923" stroke-dasharray="2 4"/>
+<text x="528.57" y="206" font-size="10.5" fill="#3d4756" font-weight="400" text-anchor="middle">20</text>
+<path d="M642.86 214V322" stroke="#121923" stroke-dasharray="2 4"/>
+<text x="642.86" y="206" font-size="10.5" fill="#3d4756" font-weight="400" text-anchor="middle">30</text>
+<path d="M757.14 214V322" stroke="#121923" stroke-dasharray="2 4"/>
+<text x="757.14" y="206" font-size="10.5" fill="#3d4756" font-weight="400" text-anchor="middle">40 ms</text>
+<text x="28" y="234" font-size="12.5" fill="#7aa2ff" font-weight="700" text-anchor="start">api-gateway</text>
+<text x="130" y="234" font-size="12.5" fill="#8b949e" font-weight="400" text-anchor="start">GET /emmanoel-vieira</text>
+<rect x="300" y="224" width="480" height="13" rx="3" fill="#121923"/>
+<rect x="300" y="224" width="480" height="13" rx="3" fill="#7aa2ff" style="transform-box:fill-box;transform-origin:0 50%;animation:bar0 9s linear infinite"/>
+<g style="animation:ms0 9s linear infinite"><text x="832" y="234" font-size="12.5" fill="#e6edf3" font-weight="400" text-anchor="end">42 ms</text></g>
+<text x="28" y="260" font-size="12.5" fill="#c099ff" font-weight="700" text-anchor="start">auth</text>
+<text x="130" y="260" font-size="12.5" fill="#8b949e" font-weight="400" text-anchor="start">verify jwt</text>
+<rect x="300" y="250" width="480" height="13" rx="3" fill="#121923"/>
+<rect x="322.86" y="250" width="45.71" height="13" rx="3" fill="#c099ff" style="transform-box:fill-box;transform-origin:0 50%;animation:bar1 9s linear infinite"/>
+<g style="animation:ms1 9s linear infinite"><text x="832" y="260" font-size="12.5" fill="#e6edf3" font-weight="400" text-anchor="end">4 ms</text></g>
+<text x="28" y="286" font-size="12.5" fill="#ffb547" font-weight="700" text-anchor="start">profile-svc</text>
+<text x="130" y="286" font-size="12.5" fill="#8b949e" font-weight="400" text-anchor="start">build profile</text>
+<rect x="300" y="276" width="480" height="13" rx="3" fill="#121923"/>
+<rect x="368.57" y="276" width="365.71" height="13" rx="3" fill="#ffb547" style="transform-box:fill-box;transform-origin:0 50%;animation:bar2 9s linear infinite"/>
+<g style="animation:ms2 9s linear infinite"><text x="832" y="286" font-size="12.5" fill="#e6edf3" font-weight="400" text-anchor="end">32 ms</text></g>
+<text x="28" y="312" font-size="12.5" fill="#4fd6be" font-weight="700" text-anchor="start">postgres</text>
+<text x="130" y="312" font-size="12.5" fill="#8b949e" font-weight="400" text-anchor="start">SELECT skills</text>
+<rect x="300" y="302" width="480" height="13" rx="3" fill="#121923"/>
+<rect x="437.14" y="302" width="205.71" height="13" rx="3" fill="#4fd6be" style="transform-box:fill-box;transform-origin:0 50%;animation:bar3 9s linear infinite"/>
+<g style="animation:ms3 9s linear infinite"><text x="832" y="312" font-size="12.5" fill="#e6edf3" font-weight="400" text-anchor="end">18 ms</text></g>
+<path d="M300 214V322" stroke="#ffb547" stroke-width="1.5" opacity="0" style="animation:cursor 9s linear infinite"/>
+<path d="M0 334H860" stroke="#1d2633"/>
+<path d="M60 366H800" stroke="#1d2633" stroke-width="2"/>
+<circle cx="60" cy="366" r="15" fill="#8b949e" opacity="0" style="animation:halo0 9s linear infinite"/>
+<circle cx="60" cy="366" r="6.5" fill="#0a0d12" stroke="#8b949e" stroke-width="2"/>
+<text x="60" y="396" font-size="12" fill="#8b949e" font-weight="400" text-anchor="middle">client</text>
+<circle cx="245" cy="366" r="15" fill="#7aa2ff" opacity="0" style="animation:halo1 9s linear infinite"/>
+<circle cx="245" cy="366" r="6.5" fill="#0a0d12" stroke="#7aa2ff" stroke-width="2"/>
+<text x="245" y="396" font-size="12" fill="#8b949e" font-weight="400" text-anchor="middle">gateway</text>
+<circle cx="430" cy="366" r="15" fill="#c099ff" opacity="0" style="animation:halo2 9s linear infinite"/>
+<circle cx="430" cy="366" r="6.5" fill="#0a0d12" stroke="#c099ff" stroke-width="2"/>
+<text x="430" y="396" font-size="12" fill="#8b949e" font-weight="400" text-anchor="middle">auth</text>
+<circle cx="615" cy="366" r="15" fill="#ffb547" opacity="0" style="animation:halo3 9s linear infinite"/>
+<circle cx="615" cy="366" r="6.5" fill="#0a0d12" stroke="#ffb547" stroke-width="2"/>
+<text x="615" y="396" font-size="12" fill="#8b949e" font-weight="400" text-anchor="middle">profile-svc</text>
+<circle cx="800" cy="366" r="15" fill="#4fd6be" opacity="0" style="animation:halo4 9s linear infinite"/>
+<circle cx="800" cy="366" r="6.5" fill="#0a0d12" stroke="#4fd6be" stroke-width="2"/>
+<text x="800" y="396" font-size="12" fill="#8b949e" font-weight="400" text-anchor="middle">postgres</text>
+<circle r="5" fill="#ffb547" filter="url(#glow)" opacity="0" style="animation:req 9s linear infinite"/>
+<circle r="5" fill="#7ee787" filter="url(#glow)" opacity="0" style="animation:res 9s linear infinite"/>
+<rect x=".5" y=".5" width="859" height="419" rx="15.5" fill="none" stroke="#1d2633"/>
+</svg>

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="336" viewBox="0 0 860 336" role="img" aria-labelledby="title desc">
+<title id="title">Stack de Emmanoel Vieira</title>
+<desc id="desc">Mapa de serviços com quatro camadas. Linguagens: TypeScript, JavaScript, C#, SQL. Frameworks: Node.js, NestJS, Fastify, Next.js, .NET. Persistência: PostgreSQL, Prisma, Redis, MongoDB, SQLite. Entrega: Docker, GitHub Actions, Azure, Jest e Vitest.</desc>
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0f151d"/></pattern>
+<filter id="glow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes con0{0%{opacity:0}3.6%{opacity:0}5.6%{opacity:1}9.6%{opacity:0}100%{opacity:0}}
+@keyframes edge0{0%{opacity:0}4.6%{opacity:0}6.6%{opacity:0.9}10.6%{opacity:0}100%{opacity:0}}
+@keyframes it0_0{0%,7.6%{fill:#3d4756}8.4%,90%{fill:#7aa2ff}96%,100%{fill:#3d4756}}
+@keyframes tx0_0{0%,7.6%{fill:#8b949e}8.4%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it0_1{0%,9.2%{fill:#3d4756}10%,90%{fill:#7aa2ff}96%,100%{fill:#3d4756}}
+@keyframes tx0_1{0%,9.2%{fill:#8b949e}10%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it0_2{0%,10.8%{fill:#3d4756}11.6%,90%{fill:#7aa2ff}96%,100%{fill:#3d4756}}
+@keyframes tx0_2{0%,10.8%{fill:#8b949e}11.6%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it0_3{0%,12.4%{fill:#3d4756}13.2%,90%{fill:#7aa2ff}96%,100%{fill:#3d4756}}
+@keyframes tx0_3{0%,12.4%{fill:#8b949e}13.2%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes con1{0%{opacity:0}16.53%{opacity:0}18.53%{opacity:1}22.53%{opacity:0}100%{opacity:0}}
+@keyframes edge1{0%{opacity:0}17.53%{opacity:0}19.53%{opacity:0.9}23.53%{opacity:0}100%{opacity:0}}
+@keyframes it1_0{0%,20.53%{fill:#3d4756}21.33%,90%{fill:#ffb547}96%,100%{fill:#3d4756}}
+@keyframes tx1_0{0%,20.53%{fill:#8b949e}21.33%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it1_1{0%,22.13%{fill:#3d4756}22.93%,90%{fill:#ffb547}96%,100%{fill:#3d4756}}
+@keyframes tx1_1{0%,22.13%{fill:#8b949e}22.93%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it1_2{0%,23.73%{fill:#3d4756}24.53%,90%{fill:#ffb547}96%,100%{fill:#3d4756}}
+@keyframes tx1_2{0%,23.73%{fill:#8b949e}24.53%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it1_3{0%,25.33%{fill:#3d4756}26.13%,90%{fill:#ffb547}96%,100%{fill:#3d4756}}
+@keyframes tx1_3{0%,25.33%{fill:#8b949e}26.13%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it1_4{0%,26.93%{fill:#3d4756}27.73%,90%{fill:#ffb547}96%,100%{fill:#3d4756}}
+@keyframes tx1_4{0%,26.93%{fill:#8b949e}27.73%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes con2{0%{opacity:0}29.47%{opacity:0}31.47%{opacity:1}35.47%{opacity:0}100%{opacity:0}}
+@keyframes edge2{0%{opacity:0}30.47%{opacity:0}32.47%{opacity:0.9}36.47%{opacity:0}100%{opacity:0}}
+@keyframes it2_0{0%,33.47%{fill:#3d4756}34.27%,90%{fill:#4fd6be}96%,100%{fill:#3d4756}}
+@keyframes tx2_0{0%,33.47%{fill:#8b949e}34.27%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it2_1{0%,35.07%{fill:#3d4756}35.87%,90%{fill:#4fd6be}96%,100%{fill:#3d4756}}
+@keyframes tx2_1{0%,35.07%{fill:#8b949e}35.87%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it2_2{0%,36.67%{fill:#3d4756}37.47%,90%{fill:#4fd6be}96%,100%{fill:#3d4756}}
+@keyframes tx2_2{0%,36.67%{fill:#8b949e}37.47%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it2_3{0%,38.27%{fill:#3d4756}39.07%,90%{fill:#4fd6be}96%,100%{fill:#3d4756}}
+@keyframes tx2_3{0%,38.27%{fill:#8b949e}39.07%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it2_4{0%,39.87%{fill:#3d4756}40.67%,90%{fill:#4fd6be}96%,100%{fill:#3d4756}}
+@keyframes tx2_4{0%,39.87%{fill:#8b949e}40.67%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes con3{0%{opacity:0}42.4%{opacity:0}44.4%{opacity:1}48.4%{opacity:0}100%{opacity:0}}
+@keyframes edge3{0%{opacity:0}43.4%{opacity:0}45.4%{opacity:0.9}49.4%{opacity:0}100%{opacity:0}}
+@keyframes it3_0{0%,46.4%{fill:#3d4756}47.2%,90%{fill:#c099ff}96%,100%{fill:#3d4756}}
+@keyframes tx3_0{0%,46.4%{fill:#8b949e}47.2%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it3_1{0%,48%{fill:#3d4756}48.8%,90%{fill:#c099ff}96%,100%{fill:#3d4756}}
+@keyframes tx3_1{0%,48%{fill:#8b949e}48.8%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it3_2{0%,49.6%{fill:#3d4756}50.4%,90%{fill:#c099ff}96%,100%{fill:#3d4756}}
+@keyframes tx3_2{0%,49.6%{fill:#8b949e}50.4%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes it3_3{0%,51.2%{fill:#3d4756}52%,90%{fill:#c099ff}96%,100%{fill:#3d4756}}
+@keyframes tx3_3{0%,51.2%{fill:#8b949e}52%,90%{fill:#e6edf3}96%,100%{fill:#8b949e}}
+@keyframes pulse{0%{opacity:1;transform:translate(28px,64px)}50%{opacity:1;transform:translate(832px,64px)}50.3%,100%{opacity:0;transform:translate(832px,64px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="860" height="336" rx="16" fill="#0a0d12"/>
+<rect width="860" height="336" rx="16" fill="url(#grid)"/>
+<circle cx="34" cy="31" r="4.5" fill="#7ee787" filter="url(#glow)"/>
+<text x="48" y="36" font-size="12" fill="#8b949e" font-weight="700" text-anchor="start" letter-spacing="2">SERVICE MAP</text>
+<text x="832" y="36" font-size="13" fill="#8b949e" font-weight="400" text-anchor="end">4 camadas · health <tspan fill="#7ee787" font-weight="700">ok</tspan></text>
+<path d="M28 64H832" stroke="#1d2633" stroke-width="2"/>
+<path d="M118 64V84" stroke="#1d2633" stroke-width="2"/>
+<path d="M118 64V84" stroke="#7aa2ff" stroke-width="2" opacity="0" style="animation:con0 8s linear infinite"/>
+<rect x="28" y="84" width="180" height="222" rx="10" fill="#0d1219" stroke="#1d2633"/>
+<rect x="28" y="84" width="180" height="222" rx="10" fill="none" stroke="#7aa2ff" opacity="0" style="animation:edge0 8s linear infinite"/>
+<text x="46" y="114" font-size="14" fill="#7aa2ff" font-weight="700" text-anchor="start">lang</text>
+<text x="192" y="114" font-size="11" fill="#3d4756" font-weight="400" text-anchor="end">linguagens</text>
+<path d="M46 128H192" stroke="#1d2633"/>
+<circle cx="52" cy="151" r="4" fill="#7aa2ff" style="animation:it0_0 8s linear infinite"/>
+<text x="66" y="156" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx0_0 8s linear infinite">TypeScript</text>
+<circle cx="52" cy="181" r="4" fill="#7aa2ff" style="animation:it0_1 8s linear infinite"/>
+<text x="66" y="186" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx0_1 8s linear infinite">JavaScript</text>
+<circle cx="52" cy="211" r="4" fill="#7aa2ff" style="animation:it0_2 8s linear infinite"/>
+<text x="66" y="216" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx0_2 8s linear infinite">C#</text>
+<circle cx="52" cy="241" r="4" fill="#7aa2ff" style="animation:it0_3 8s linear infinite"/>
+<text x="66" y="246" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx0_3 8s linear infinite">SQL</text>
+<path d="M326 64V84" stroke="#1d2633" stroke-width="2"/>
+<path d="M326 64V84" stroke="#ffb547" stroke-width="2" opacity="0" style="animation:con1 8s linear infinite"/>
+<rect x="236" y="84" width="180" height="222" rx="10" fill="#0d1219" stroke="#1d2633"/>
+<rect x="236" y="84" width="180" height="222" rx="10" fill="none" stroke="#ffb547" opacity="0" style="animation:edge1 8s linear infinite"/>
+<text x="254" y="114" font-size="14" fill="#ffb547" font-weight="700" text-anchor="start">runtime</text>
+<text x="400" y="114" font-size="11" fill="#3d4756" font-weight="400" text-anchor="end">frameworks</text>
+<path d="M254 128H400" stroke="#1d2633"/>
+<circle cx="260" cy="151" r="4" fill="#ffb547" style="animation:it1_0 8s linear infinite"/>
+<text x="274" y="156" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx1_0 8s linear infinite">Node.js</text>
+<circle cx="260" cy="181" r="4" fill="#ffb547" style="animation:it1_1 8s linear infinite"/>
+<text x="274" y="186" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx1_1 8s linear infinite">NestJS</text>
+<circle cx="260" cy="211" r="4" fill="#ffb547" style="animation:it1_2 8s linear infinite"/>
+<text x="274" y="216" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx1_2 8s linear infinite">Fastify</text>
+<circle cx="260" cy="241" r="4" fill="#ffb547" style="animation:it1_3 8s linear infinite"/>
+<text x="274" y="246" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx1_3 8s linear infinite">Next.js</text>
+<circle cx="260" cy="271" r="4" fill="#ffb547" style="animation:it1_4 8s linear infinite"/>
+<text x="274" y="276" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx1_4 8s linear infinite">.NET</text>
+<path d="M534 64V84" stroke="#1d2633" stroke-width="2"/>
+<path d="M534 64V84" stroke="#4fd6be" stroke-width="2" opacity="0" style="animation:con2 8s linear infinite"/>
+<rect x="444" y="84" width="180" height="222" rx="10" fill="#0d1219" stroke="#1d2633"/>
+<rect x="444" y="84" width="180" height="222" rx="10" fill="none" stroke="#4fd6be" opacity="0" style="animation:edge2 8s linear infinite"/>
+<text x="462" y="114" font-size="14" fill="#4fd6be" font-weight="700" text-anchor="start">data</text>
+<text x="608" y="114" font-size="11" fill="#3d4756" font-weight="400" text-anchor="end">persistência</text>
+<path d="M462 128H608" stroke="#1d2633"/>
+<circle cx="468" cy="151" r="4" fill="#4fd6be" style="animation:it2_0 8s linear infinite"/>
+<text x="482" y="156" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx2_0 8s linear infinite">PostgreSQL</text>
+<circle cx="468" cy="181" r="4" fill="#4fd6be" style="animation:it2_1 8s linear infinite"/>
+<text x="482" y="186" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx2_1 8s linear infinite">Prisma</text>
+<circle cx="468" cy="211" r="4" fill="#4fd6be" style="animation:it2_2 8s linear infinite"/>
+<text x="482" y="216" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx2_2 8s linear infinite">Redis</text>
+<circle cx="468" cy="241" r="4" fill="#4fd6be" style="animation:it2_3 8s linear infinite"/>
+<text x="482" y="246" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx2_3 8s linear infinite">MongoDB</text>
+<circle cx="468" cy="271" r="4" fill="#4fd6be" style="animation:it2_4 8s linear infinite"/>
+<text x="482" y="276" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx2_4 8s linear infinite">SQLite</text>
+<path d="M742 64V84" stroke="#1d2633" stroke-width="2"/>
+<path d="M742 64V84" stroke="#c099ff" stroke-width="2" opacity="0" style="animation:con3 8s linear infinite"/>
+<rect x="652" y="84" width="180" height="222" rx="10" fill="#0d1219" stroke="#1d2633"/>
+<rect x="652" y="84" width="180" height="222" rx="10" fill="none" stroke="#c099ff" opacity="0" style="animation:edge3 8s linear infinite"/>
+<text x="670" y="114" font-size="14" fill="#c099ff" font-weight="700" text-anchor="start">infra</text>
+<text x="816" y="114" font-size="11" fill="#3d4756" font-weight="400" text-anchor="end">entrega</text>
+<path d="M670 128H816" stroke="#1d2633"/>
+<circle cx="676" cy="151" r="4" fill="#c099ff" style="animation:it3_0 8s linear infinite"/>
+<text x="690" y="156" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx3_0 8s linear infinite">Docker</text>
+<circle cx="676" cy="181" r="4" fill="#c099ff" style="animation:it3_1 8s linear infinite"/>
+<text x="690" y="186" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx3_1 8s linear infinite">GitHub Actions</text>
+<circle cx="676" cy="211" r="4" fill="#c099ff" style="animation:it3_2 8s linear infinite"/>
+<text x="690" y="216" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx3_2 8s linear infinite">Azure</text>
+<circle cx="676" cy="241" r="4" fill="#c099ff" style="animation:it3_3 8s linear infinite"/>
+<text x="690" y="246" font-size="14.5" fill="#e6edf3" font-weight="400" text-anchor="start" style="animation:tx3_3 8s linear infinite">Jest · Vitest</text>
+<circle r="5" fill="#ffb547" filter="url(#glow)" opacity="0" style="animation:pulse 8s linear infinite"/>
+<text x="430" y="324" font-size="11.5" fill="#3d4756" font-weight="400" text-anchor="middle">health check a cada requisição · a stack que eu uso no dia a dia</text>
+<rect x=".5" y=".5" width="859" height="335" rx="15.5" fill="none" stroke="#1d2633"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="314" viewBox="0 0 860 314" role="img" aria-labelledby="title desc">
+<title id="title">Resposta 200 OK com o contato de Emmanoel Vieira</title>
+<desc id="desc">Resposta HTTP 200 em JSON: nome Emmanoel Vieira, desenvolvedor back-end, email arandas.dev@gmail.com, LinkedIn linkedin.com/in/arandasdev, aberto a back-end, freelance e colaboração.</desc>
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0f151d"/></pattern>
+<filter id="glow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:translateX(0)}}
+@keyframes cur{0%,49%{opacity:1}50%,100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="860" height="314" rx="16" fill="#0a0d12"/>
+<rect width="860" height="314" rx="16" fill="url(#grid)"/>
+<text x="836" y="292" font-size="150" fill="#121923" font-weight="700" text-anchor="end" letter-spacing="-6">200</text>
+<text x="32" y="44" font-size="15" fill="#e6edf3" xml:space="preserve" style="animation:in .35s ease-out 0.3s both"><tspan fill="#8b949e">HTTP/1.1</tspan> <tspan fill="#7ee787" font-weight="700">200 OK</tspan></text>
+<text x="32" y="67" font-size="15" fill="#e6edf3" xml:space="preserve" style="animation:in .35s ease-out 0.52s both"><tspan fill="#8b949e">content-type:</tspan> application/json</text>
+<text x="32" y="90" font-size="15" fill="#e6edf3" xml:space="preserve" style="animation:in .35s ease-out 0.74s both"><tspan fill="#8b949e">x-trace-id:</tspan> 7f3a9b04e21c</text>
+<text x="32" y="136" font-size="15" fill="#e6edf3" xml:space="preserve" style="animation:in .35s ease-out 1.18s both"><tspan fill="#8b949e">{</tspan></text>
+<text x="32" y="159" font-size="15" fill="#e6edf3" xml:space="preserve" style="animation:in .35s ease-out 1.4s both">  <tspan fill="#7aa2ff">"nome"</tspan><tspan fill="#8b949e">:</tspan> <tspan fill="#4fd6be">"Emmanoel Vieira"</tspan><tspan fill="#8b949e">,</tspan></text>
+<text x="32" y="182" font-size="15" fill="#e6edf3" xml:space="preserve" style="animation:in .35s ease-out 1.62s both">  <tspan fill="#7aa2ff">"papel"</tspan><tspan fill="#8b949e">:</tspan> <tspan fill="#4fd6be">"desenvolvedor back-end"</tspan><tspan fill="#8b949e">,</tspan></text>
+<text x="32" y="205" font-size="15" fill="#e6edf3" xml:space="preserve" style="animation:in .35s ease-out 1.84s both">  <tspan fill="#7aa2ff">"email"</tspan><tspan fill="#8b949e">:</tspan> <tspan fill="#4fd6be">"arandas.dev@gmail.com"</tspan><tspan fill="#8b949e">,</tspan></text>
+<text x="32" y="228" font-size="15" fill="#e6edf3" xml:space="preserve" style="animation:in .35s ease-out 2.06s both">  <tspan fill="#7aa2ff">"linkedin"</tspan><tspan fill="#8b949e">:</tspan> <tspan fill="#4fd6be">"linkedin.com/in/arandasdev"</tspan><tspan fill="#8b949e">,</tspan></text>
+<text x="32" y="251" font-size="15" fill="#e6edf3" xml:space="preserve" style="animation:in .35s ease-out 2.28s both">  <tspan fill="#7aa2ff">"aberto_a"</tspan><tspan fill="#8b949e">: [</tspan><tspan fill="#4fd6be">"back-end"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#4fd6be">"freelance"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#4fd6be">"colaboração"</tspan><tspan fill="#8b949e">]</tspan></text>
+<text x="32" y="274" font-size="15" fill="#e6edf3" xml:space="preserve" style="animation:in .35s ease-out 2.5s both"><tspan fill="#8b949e">}</tspan></text>
+<rect x="44" y="261" width="9" height="17" fill="#ffb547" style="animation:cur 1s steps(1) 2.72s infinite both"/>
+<rect x=".5" y=".5" width="859" height="313" rx="15.5" fill="none" stroke="#1d2633"/>
+</svg>
