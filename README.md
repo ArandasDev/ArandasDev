@@ -8,13 +8,13 @@
   e código que aguenta manutenção.
 </p>
 
-### `span 01` · stack
+### `01` · stack
 
 <p align="center">
   <img src="./assets/stack.svg" width="100%" alt="Stack em quatro camadas. Linguagens: TypeScript, JavaScript, C#, SQL. Frameworks: Node.js, NestJS, Fastify, Next.js, .NET. Persistência: PostgreSQL, Prisma, Redis, MongoDB, SQLite. Entrega: Docker, GitHub Actions, Azure, Jest e Vitest.">
 </p>
 
-### `span 02` · projetos
+### `02` · projetos
 
 <p align="center">
   <a href="https://github.com/ArandasDev/restaurant-api">
@@ -34,7 +34,7 @@
   </a>
 </p>
 
-### `span 03` · response
+### `03` · response
 
 <p align="center">
   <img src="./assets/response.svg" width="100%" alt="Resposta 200 OK em JSON com nome, papel, email e LinkedIn de Emmanoel Vieira.">
